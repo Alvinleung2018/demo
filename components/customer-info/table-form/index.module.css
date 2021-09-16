@@ -1,0 +1,9 @@
+.tableinput {
+    padding-left: 6px;
+}
+.errorinput {
+    border: 1px solid #ff4d4f;
+}
+.tabletip {
+    color: #ff4d4f;
+}

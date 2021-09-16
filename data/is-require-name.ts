@@ -3,15 +3,19 @@ export const holderMsgRequireNameList = [
     'chineseName'
 ]
 
-export const otherMsgRequireNameNameList = [
+export const otherMsgRequireNameList = [
     'riskDisclosure',
     'witness'
 ]
 
 export const allFormList: string[] = [
     "holderMsg",
-    "otherMsg"
+    "otherMsg",
+    "accountMsg",
+    "tableForm"
 ]
+
+export const phoneFormRequireNameList = []
 
 export const requireNameObj = {
     holderMsg: [
@@ -21,5 +25,14 @@ export const requireNameObj = {
     otherMsg: [
         'riskDisclosure',
         'witness'
+    ],
+    accountMsg: [
+        'accountType',
+        'accountName'
+    ],
+    tableForm: [
+        'areaCode',
+        'phoneNumber',
+        'isDefault',
     ]
 }

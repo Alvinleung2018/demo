@@ -24,6 +24,8 @@ export const findSameElementInArray = (targetObj: object, arr: string[]) => {
 }
 
 
+
+
 export const formatDate = (value: any) => {
     let obj: DateType = {}
     if(Object.prototype.toString.call(value) === '[object Object]') {
